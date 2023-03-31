@@ -9,9 +9,9 @@ from DBcm import UseDatabase, ConnectionError, CredentialsError, SQLError
 from checker import check_logged_in
 
 app = Flask(__name__)
-app.config['dbconfig'] = {'host': '127.0.0.1',
-                          'user': 'root',
-                          'password': 'Pa$$w0rd',
+app.config['dbconfig'] = {'host': 'AlHobb74.mysql.pythonanywhere-services.com',
+                          'user': 'AlHobb74',
+                          'password': 'Pa$$w0rd_w@ll',
                           'database': 'vsearchlogDB', }
 
 
