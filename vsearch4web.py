@@ -11,7 +11,7 @@ from checker import check_logged_in
 app = Flask(__name__)
 app.config['dbconfig'] = {'host': '127.0.0.1',
                           'user': 'root',
-                          'password': 'walrus74',
+                          'password': 'Pa$$w0rd',
                           'database': 'vsearchlogDB', }
 
 
